@@ -1,0 +1,22 @@
+img{
+    max-width: 100%;
+}
+a:hover{
+    color: black;   
+   }
+   .card:hover{
+   border: 1px solid blue; 
+      }
+      .head{
+          color: blue;
+      }
+      h1{
+          font-size: 22px;
+          font-family: sans-serif;
+      }
+      .profile>a{
+          padding: 10px 30px 10px 30px;
+          border: 1px solid blue;
+          color:blue;
+      }
+      

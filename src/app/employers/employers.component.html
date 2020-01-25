@@ -1,0 +1,13 @@
+<div class="container-fluid body">
+    <div class="row">
+        <div class="col title">
+            <h5>Here You Can See</h5>
+            <h1>Top <span>Employers</span></h1>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div *ngFor="let company of companylist;"> <a [href]="company.link"><img [src]="company.image"
+                    alt="company"></a>
+        </div>
+    </div>
+</div>

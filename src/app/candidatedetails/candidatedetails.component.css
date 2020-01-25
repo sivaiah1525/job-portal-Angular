@@ -1,0 +1,45 @@
+.page-title{
+    
+    background-image: url("/assets/page-title-bg.jpeg");
+    height: 200px;
+}
+.page-heading{
+    text-align: center;
+    color: white;
+    padding: 70px 0;
+}
+.bread-crumb{
+    color: white;
+    padding: 85px 0;
+    text-align: center;
+}
+.card{
+    margin: 50px 0;
+}
+.mainimage{
+    max-width: 60%;
+    border: 5px solid blue;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.date{
+    max-width: 100%;
+    border: unset;
+}
+.colour{
+    color: blue;
+    padding-top: 10px;
+}
+h5{
+    color:#58c0ff;
+}
+.compress{
+    max-width: 85%;
+    padding-left: 10px;
+}
+.imagebox{
+    max-width:90%;
+    padding-bottom: 25px;
+}

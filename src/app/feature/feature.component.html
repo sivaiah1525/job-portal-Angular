@@ -1,0 +1,25 @@
+<section>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col title">
+                <h6>Here You Can See</h6>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col title">
+                <h1>Featureds<samp class="span">Jobs</samp></h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-5 p-5" *ngFor="let job of jobapply;">
+                <app-technicalcard [image]="job.image" [title]="job.title" [para]="job.para" [time]="job.time"
+                    [location]="job.location" [button]="job.button"></app-technicalcard>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3 pb-5 link">
+             <button><a href="">ViewAllFeaturedJobs</a></button>
+            </div>
+        </div>
+    </div>
+</section>

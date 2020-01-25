@@ -1,0 +1,19 @@
+.postbody{
+    background-image: url("/assets/bodyimg.jpg");
+    background-size: cover;
+    height: 200px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+}
+span{
+    color:blue;
+}
+.home>a{
+    color: white;
+}
+.img{
+    max-width: 100%;
+    border: 5px solid blue;
+}

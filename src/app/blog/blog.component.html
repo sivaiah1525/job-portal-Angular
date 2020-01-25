@@ -1,0 +1,7 @@
+<div class="row no-gotters justify-content-center">
+        <div class="col-md-3 card m-2" *ngFor="let card of cardData;">
+                <app-jobcard [image]="card.image" [title]="card.title" [para]="card.para"
+                        [link]="card.para"></app-jobcard>
+        </div>    
+</div>
+

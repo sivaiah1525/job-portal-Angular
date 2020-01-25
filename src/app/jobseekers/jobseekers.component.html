@@ -1,0 +1,51 @@
+<div class="container-fluid ">
+        <div class="row justify-content-around">
+                <div class="col-md-4 pt-5">
+                    <h1>Candidates Listing</h1>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-2 link "><a href="">Home /</a> </div>
+                        <div class="col-md-4 link "><a href="">ResumeSearch /</a> </div>
+                        <div class="col-md-3"><h5>Candidates</h5></div>
+                    </div>
+            
+                </div>
+            </div>
+</div>
+<div class="container">
+    <div class="row body">
+         <div class="col-md-4 lift pt-3">
+            <app-jobdetails *ngFor="let details of jobdetails;" [titles]="details.titles" [domain1]="details.domain1" [domain2]="details.domain2" [domain3]="details.domain3" [domain4]="details.domain4" [domain5]="details.domain5" [domain6]="details.domain6" [view]="details.view" [num2]="details.num2" [num1]="details.num1" [num3]="details.num3" [num4]="details.num4" [num5]="details.num5" [num6]="details.num6"></app-jobdetails>
+            <div class="row pl-3 btn btn-color-primary">
+                <div class="col"> <button  class="btn btn-primary" type="submit"> <i class="fas fa-search-dollar"></i>Search Job</button> </div>
+            </div>
+        </div> 
+
+        <div class="col-md-8 pt-3 right">
+            <app-profilecard  *ngFor="let data of profildetails;" [image]="data.image" [heading]="data.heading" [title]="data.title" [location]="data.location" [para]="data.para" [salary]="data.salary" [link]="data.link" ></app-profilecard>
+            <div class="row justify-content-between ">
+                <div class="col-md-4 ml-3">Showing 1-10</div>
+                <div class="col-md-6">
+                        <nav aria-label="...">
+                                <ul class="pagination">
+                                  
+                                  <li class="page-item active" aria-current="page"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                  
+                                </ul>
+                              </nav>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+.postbody{
+    background-image: url("/assets/bodyimg.jpg");
+    background-size: cover;
+    height: 200px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+}
+span{
+    color:blue;
+}
+.home>a{
+    color: white;
+}
+.inner-page {
+    padding: 50px 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.title h2{
+    color: #292929;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.title > span {
+    color: #292929;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.contact {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.contact > span {
+    color: #263bd6;
+    float: left;
+    font-size: 50px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 70px;
+}
+.information {
+    overflow: hidden;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+.information > strong {
+    color: #000;
+    display: table;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.contact-form button {
+    background-color: #263bd6;
+    border: 0 none;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 18px 40px;
+    margin-top: 20px;
+}

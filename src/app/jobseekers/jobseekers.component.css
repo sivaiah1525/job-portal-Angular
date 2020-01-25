@@ -1,0 +1,27 @@
+.container-fluid{
+    background-image: url("/assets/bodyimg.jpg");
+    height: 200px;
+    }
+h5{
+    color: blue;
+    font-size: small;;
+}
+.link>a{
+    color:white;
+   font-size: small;
+}
+h1{
+    color:white;
+    font-weight: 900;
+}
+.box{
+    width: 100%;
+    height: 1000vh;
+    background-color: yellow;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    
+ 
+}

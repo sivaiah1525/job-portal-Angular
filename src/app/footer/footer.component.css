@@ -1,0 +1,72 @@
+/* section{
+    background-color: black;
+}
+img{
+    max-width: 100%;
+    margin: 5px
+}
+a{
+    color: white;
+    padding: 10px;
+}
+a:hover{
+    color: blue;
+}
+h4{
+    color: white;
+    font-weight: 900
+} */
+.footerWrap{
+    background: #272727;
+    padding: 50px 0;
+}
+.ft-logo {
+    margin-bottom: 15px;
+}
+.footerWrap p {
+    line-height: 22px;
+    color: #ccc;
+}
+img{
+    max-width: 100%;
+    margin: 5px
+}
+
+.footerWrap h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footerWrap .quicklinks a {
+    display: block;
+    color: #ccc;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.footerWrap .quicklinks i{
+    margin-right: 7px;
+}
+.entry-title h4 {
+    font-weight: 400;
+    text-transform: inherit;
+    margin: 0 0 5px;
+}
+.entry-title a {
+    color: #fff;
+    font-size: 16px;
+}
+.entry-date {
+    color: #ccc;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.social a {
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.social {
+    margin-top: 20px;
+}

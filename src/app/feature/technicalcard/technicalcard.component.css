@@ -1,0 +1,29 @@
+button{
+    background-color: white;
+    border-radius: 1px solid black;
+    color: blue;
+    padding: 10px;
+    outline: 0;
+    border: 0;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+
+}
+img{
+    size: 50%;
+    margin:0;
+}
+h6,h1{
+    font-weight: 900;
+    text-align: center;
+}
+.title>h1,h6{
+    text-align: center;
+    font-weight: 900;
+}
+.technicalcard{
+    border: 1px solid gray;
+    background-color: white;
+}

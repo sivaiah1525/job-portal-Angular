@@ -1,0 +1,41 @@
+.postbody{
+    background-image: url("/assets/bodyimg.jpg");
+    background-size: cover;
+    height: 200px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+}
+span{
+    color:blue;
+}
+.home>a{
+    color: white;
+}
+.img{
+    background-image: url("/assets/about-us-img1.jpg");
+    height: 300px;
+}
+.img2{
+    background-image: url("/assets/about-us-img2.jpg");
+    height: 300px;
+}
+h2{
+    color: blue;
+    font-weight: 900;
+}
+i{
+    color: blue;
+}
+.img3{
+    max-width:50%;
+    border-radius:50%;
+}
+.title{
+    color: black;
+    font-weight: 900;
+}
+.iconbody{
+    background-color: rgb(250, 249, 249);
+}

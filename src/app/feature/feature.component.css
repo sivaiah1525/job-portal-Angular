@@ -1,0 +1,19 @@
+section{
+    background-color: gainsboro;
+}
+.title>h6,h1{
+    text-align: center;
+    font-weight: 900;
+}
+.span{
+ color: blue;
+ font-weight: 100;
+}
+button{
+    background-color: blue;
+    border: unset;
+    padding:15px;
+}
+a{
+    color: white;
+}

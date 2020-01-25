@@ -1,0 +1,20 @@
+.icon{
+    border-radius:50%;
+    max-width:50%;
+    margin: 0 0 0 80px;
+}
+.icontitle{
+    font-weight: 900;
+    text-align: center;
+}
+.icontext{
+    text-align: center;
+    
+}
+
+@media screen and (max-width:480px){
+    .icon{
+        border-radius:50%;
+        max-width:30%;
+    }
+} 

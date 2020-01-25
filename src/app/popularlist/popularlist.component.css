@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-weight: 900;
+    padding:0 0 30px 0;
+}
+h3{
+    padding:5px;
+    font-size: 30px;
+}
+.Searches{
+    color: blue;
+    font-weight: 100;
+}
+h6{
+    text-align: center;
+    padding:30px 0 0 0;
+    color:grey;
+    font-weight: 900;
+}
+.righthead{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+.lefthead{
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+}
+.linkes3{
+    margin-left: -110px;
+}
+ul{
+    padding: 10px;
+}
+ul>li{
+    padding: 10px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+}

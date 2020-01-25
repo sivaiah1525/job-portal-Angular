@@ -1,0 +1,82 @@
+.homebody{
+    background-image: url("../../assets/bodyimg.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    height:450px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    padding:80px 0;
+    color:white;
+}
+.jobtitle>input{
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    height: 50px;
+    margin: unset;
+}
+.option>select{
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    height:50px;
+    margin: unset;
+}
+.option>select{
+    background-color: white;
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    height: 50px;
+    margin: unset;
+}
+.option>input{
+    background-color:blue;
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    height:50px;
+    margin: unset;
+}
+.option,.jobtitle{
+    padding-left: unset;
+    padding-right: unset;
+}
+.getstarted{
+   margin-left: 50%;
+    padding:10px;
+}
+.getstarted>button{
+    width:30%;
+    margin-top: 50px;
+    background: transparent;
+    height:50px;
+    margin: auto;
+    border:3px solid white;
+    color:white;
+    padding:12px 25px;
+}
+/* <!--end of the Get Started new -->
+
+<!-- How it works --> */
+.worktitle{
+    text-align: center;
+}
+.worktitle>h1>span{
+    color: blue;
+    font-weight: 100;
+}
+.worktitle>h5{
+    color: darkgray;
+    font-weight: 900;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.iconrow{
+    padding:30px;
+}
+.test>div {
+    background: blueviolet;
+}

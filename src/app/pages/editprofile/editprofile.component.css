@@ -1,0 +1,64 @@
+.pageTitle {
+    background: url('/assets/bodyimg.jpg') no-repeat;
+    background-size: cover;
+    padding: 70px 0;
+}
+
+.page-heading {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.listpgWraper {
+    background: #f0f0f0;
+    padding: 50px 0;
+    /* min-height: 400px; */
+}
+
+.userccount {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 25px 30px;
+}
+
+.formpanel {
+    margin-top: 20px;
+}
+
+.userccount h5 {
+    font-size: 20px;
+    color: #555;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.formpanel .form-control {
+    height: auto;
+    border-radius: 0;
+    padding: 10px 13px;
+    border-color: #ddd;
+}
+
+.formpanel .btn {
+    width: 100%;
+    /* background: #263bd6; */
+    color: #fff;
+    border-radius: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}

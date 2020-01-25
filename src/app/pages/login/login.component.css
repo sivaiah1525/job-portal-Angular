@@ -1,0 +1,27 @@
+.postbody{
+    background-image: url("/assets/bodyimg.jpg");
+    background-size: cover;
+    height: 200px;
+}
+h1{
+    color: white;
+    font-weight: 900;
+}
+span{
+    color:blue;
+}
+.home>a{
+    color: white;
+}
+.loginbody{
+    background-color: rgb(231, 219, 219);
+}
+.facebookicon{
+    color: rgba(50, 50, 139, 0.822);
+}
+.twittericon{
+    color: rgb(6, 151, 248);
+}
+.googleicon{
+    color: crimson;
+}
