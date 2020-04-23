@@ -32,6 +32,9 @@ const routes: Routes = [
    {path:"companydetails",component:CompanyDetailsComponent},
    {path:"candidatedetails",component:CandidatedetailsComponent},
   { path: '', redirectTo: 'HomeComponent', pathMatch: 'full' },
+  { path: '**', component: HomeComponent  }
+
+
 ];
 
 @NgModule({
